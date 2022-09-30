@@ -213,7 +213,7 @@ class Ui_MainWindow(object):
         f.close()
         time.sleep(0.5)
 
-        webbrowser.open_new('index.html',new=1)
+        webbrowser.open('index.html',new=1)
     def search(self):
 
 
